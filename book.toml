@@ -1,0 +1,12 @@
+[book]
+authors = ["Nami R."]
+language = "en"
+multilingual = false
+src = "src"
+title = "zKTT - Zero Knowledge Table Top"
+description = "A zero knowledge proof table-top game deployed onchain."
+
+[theme]
+[output.html]
+additional-js = ["theme.js"]
+additional-css = ["theme.css"]

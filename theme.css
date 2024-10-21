@@ -1,0 +1,12 @@
+.octicon {
+    fill: currentColor;
+    vertical-align: middle;
+}
+
+/* CSS to gray out and disable the "Work in Progress" section */
+li a[href="#.html"] {
+    color: gray;
+    pointer-events: none;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
