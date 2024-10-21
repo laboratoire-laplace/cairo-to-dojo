@@ -3,8 +3,8 @@ authors = ["Nami R."]
 language = "en"
 multilingual = false
 src = "src"
-title = "zKTT - Zero Knowledge Table Top"
-description = "A zero knowledge proof table-top game deployed onchain."
+title = "Cairo-to-Dojo Starter"
+description = "A cairo-to-dojo starter reference guide for Cairo developers."
 
 [theme]
 [output.html]
