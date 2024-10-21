@@ -15,5 +15,5 @@ Using **overlays** in the **overlays/** directory
 
 tag = "test-apply"    # Apply these permissions for the 'apply' contract within 'test'.
 writes = ["ns:test"]  # Be able to write to all models within the namespace (ns) 'test'.
-
+```
 For more info on how authorization works in the Dojo ecosystem, the[ Dojo docs](https://book.dojoengine.org/framework/world/authorization) go over it in details.

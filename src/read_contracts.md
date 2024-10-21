@@ -7,7 +7,6 @@ In Dojo, you can mark a system in your contract to be viewable (does not invoke 
 ```rust
 // Mark function as 'read-only'.
 #[view]
-// Notice the '@' symbol before the IWorldDispatcher? That is intentional and required.
 // You can append as many parameters as you want.
 fn get_character_name(world: @IWorldDispatcher) -> ByteArray {
     let caller = get_caller_address();

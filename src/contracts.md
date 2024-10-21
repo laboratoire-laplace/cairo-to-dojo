@@ -67,7 +67,7 @@ mod rps {
     
     // All public functions (visible in the ABI).
     #[abi(embed_v0)]
-    impl IRPSImpl of IRPS&#x3C;ContractState> {
+    impl IRPSImpl of IRPS<ContractState> {
         // MANDATORY
         fn join(ref world: IWorldDispatcher) -> () {
             //  Add logic...

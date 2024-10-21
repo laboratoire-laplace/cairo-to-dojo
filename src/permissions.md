@@ -6,6 +6,6 @@ All the Dojo systems within every contract in the world will **not** be able to 
 
 There are two ways to set permissions on Dojo models:
 
-1. &#x20;Using **overlays** in the **overlays/** directory
+1. &#x20;Using **overlays** in the **overlays/** directory (_recommended_)
 
-2. Using `sozo execute grant owner/writer` to manually set permissions on models in the command-line **after** migrating the world onto Katana.
+2. Using `sozo grant owner/writer` to manually set permissions on models in the command-line **after** migrating the world onto Katana.

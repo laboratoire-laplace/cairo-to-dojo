@@ -24,7 +24,3 @@ First things first, let's talk about the basic semantics that dojo brings to the
 * Dojo models are stored as key-value pairs in storage in the **world** they reside, like in a Map
 * Your world **emits events** that are sent to **Katana** as transactions, then **Torii captures these events**, indexes them in its db, and proceeds to deserializing the event contents for anyone listening on those that wants to have the state change in a API-like format
 * Although missing from the Dojo docs, **read selectors** are supported for Dojo contracts to read from storage (more on that in [Setting up Systems](cairo-to-dojo-starter.md#setting-up-systems))
-
-First, let's address the elephant in the room - what the hell are those macros above the models used for?&#x20;
-
-If you have tackled some **Rust** before, then you're almost there! You only need to learn about the additional macros that dojo provides. If you are trembling in your boots at the sight of the above macros, then don't worry, we will dissect each one together:

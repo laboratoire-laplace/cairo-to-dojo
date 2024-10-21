@@ -5,7 +5,7 @@ models to a new state onchain.
 
 ```rust
 // By default, a system will be one able to write and mutate the world, it is 
-// essentially an invoke transaction on the selector 'get_character_name'
+// essentially an invoke transaction on the selector 'set_character_name'
 fn set_character_name(ref world: IWorldDispatcher, new_name: ByteArray) {
     let caller = get_caller_address();
     // Get the current character that we want to mutate.

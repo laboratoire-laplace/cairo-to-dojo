@@ -1,5 +1,10 @@
 # Macros
 
+First, let's address the elephant in the room - what the hell are those macros above the models used for?&#x20;
+
+If you have tackled some **Rust** before, then you're almost there! You only need to learn about the additional macros that dojo provides. If you are trembling in your boots at the sight of the above macros, then don't worry, we will dissect each one together:
+
+
 ## Traits
 
 The derive [**procedural macro**](https://doc.rust-lang.org/reference/procedural-macros.html) allows developers to have code tied to the _struct_ already generated for them so that they can save time and not have to _reinvent the wheel_.
