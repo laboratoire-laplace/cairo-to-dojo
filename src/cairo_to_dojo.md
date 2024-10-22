@@ -44,4 +44,4 @@ fn get_character_name(world: @IWorldDispatcher) -> ByteArray {
 
 ### Testnet/Mainnet
 
-To deploy a Dojo world onto testnet or mainnet, is at the time of recording only possible through [**Cartridge's Slot**](https://github.com/cartridge-gg/slot). This is bound to change, so make sure to follow their [**X**](https://x.com/cartridge\_gg) and the [**Dojo** **discord server**](https://discord.gg/dojoengine).
+To deploy a Dojo world onto testnet or mainnet, you can use **Cartridge's Slot** or deploy directly using **Sozo**. For the latest deployment methods and updates, follow the **Dojo Twitter** and join the **Dojo Discord server**.

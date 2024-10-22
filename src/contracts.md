@@ -91,4 +91,4 @@ mod rps {
     }
 ```
 
-<i>Note: It is strongly recommended to treat your dojo contracts, as specific **actions** and **behaviors** that your world will need to have. You should separate contracts and condense them as much as possible to favor composability as opposed to a 'main' contract that will hold all the logic of the world.</i>
+<i>Note: It is strongly recommended to treat your Dojo contracts as specific **actions** and **behaviors** that your world will need to have. You should separate contracts and keep them concise to favor composability, rather than having a 'main' contract that holds all the logic of the world.</i>

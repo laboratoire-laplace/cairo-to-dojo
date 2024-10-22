@@ -12,19 +12,18 @@ All the links provided will guide you through installation when using **Dojoup**
 
 ### Build from Source with Cargo
 
-* After cloning, use **Cargo** to install **Sozo, katana, and Torii**:
-
-```bash
-$ cd dojo 
-$ cargo install --locked --path ./bin/sozo 
-$ cargo install --locked --path ./bin/katana 
-$ cargo install --locked --path ./bin/torii
-```
-
-* Put all three in your **local** **user binaries** to ensure that your shell refers find these programs:&#x20;
-
-```bash
-$ sudo mkdir -p /usr/local/bin
-$ sudo cp ./target/release/sozo ./target/release/katana ./target/release/torii \
-  /usr/local/bin
-```
+* After cloning, use **Cargo** to install **Sozo**, **Katana**, and **Torii**:
+    
+    ```bash
+    $ cd dojo 
+    $ cargo install --locked --path ./bin/sozo 
+    $ cargo install --locked --path ./bin/katana 
+    $ cargo install --locked --path ./bin/torii
+    ```
+    
+* Copy all three binaries to your **local bin directory** to ensure that your shell can find these programs:
+    
+    ```bash
+    $ sudo mkdir -p /usr/local/bin
+    $ sudo cp ./target/release/sozo ./target/release/katana ./target/release/torii /usr/local/bin
+    ```

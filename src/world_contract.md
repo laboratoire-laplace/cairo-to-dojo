@@ -2,4 +2,4 @@
 
 ### IWorldDispatcher
 
-You probably have some questions regading this infamous **IWorldDispatcher** contract that we have been passing around in the dojo systems above. The **world contract** is a dojo-defined contract that defines the world in which the dojo contracts and models will reside in. It is just like any contract: it has its own interface, implementation and storage (which will be used throughout the lifetime of our project). As a result, just like any other starknet contract in Cairo, you can import it's **dispatcher** and **interface** (**IWorldDispatcher, IWorldDispatcherTrait**).&#x20;
+You probably have some questions regarding the **IWorldDispatcher** contract that we have been referencing in the Dojo systems above. The **world contract** is a Dojo-defined contract that establishes the world in which the Dojo contracts and models reside. It functions like any other contract, possessing its own interface, implementation, and storage (which will be utilized throughout the project's lifetime). Consequently, just like any other Starknet contract in Cairo, you can import its dispatcher and interface (**IWorldDispatcher**, **IWorldDispatcherTrait**).

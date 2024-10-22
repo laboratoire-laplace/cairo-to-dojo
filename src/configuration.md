@@ -1,6 +1,6 @@
 # Configuration
 
-If we take the project structure from the [**zKTT** ](https://github.com/webisoftSoftware/zktt/)repo as reference, here's how the file structure could look like upon creating an initial dojo project:
+With our takeaways from adapting Cairo code to work in the Dojo framework, here's how the file structure could look upon creating an initial Dojo project:
 
 ```
 zktt/

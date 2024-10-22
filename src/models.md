@@ -4,7 +4,7 @@ In order to set up your contracts in your Dojo world, I recommend designing the 
 
 ### In Practice
 
-Here's a small and barebones minecraft clone to provide as an example of real applications using Dojo as we explain the basic boilerplate code to append to your models and entities to make them work with Katana and Torii:
+Here's a minimal Minecraft clone example demonstrating real applications using Dojo as we explain the basic boilerplate code added to your models and entities to integrate with Katana and Torii:
 
 #### models/components.cairo
 
@@ -15,9 +15,9 @@ Here's a small and barebones minecraft clone to provide as an example of real ap
 #[dojo::model]
 struct Character {
     #[key]
-    m_ent_player_addr: ContractAddress,  // Who this character belongs to.
-    m_alias: ByteArray,  // The name that they have chosen to display to others.
-    m_player_index: u8  // The nth player in the world.
+    m_ent_player_addr: ContractAddress,  // Owner of this character.
+    m_alias: ByteArray,  // Display name chosen by the player.
+    m_player_index: u8    // Player's index in the world.
 }
 
 #[derive(Drop, Clone, Serde, PartialEq, Debug)]
