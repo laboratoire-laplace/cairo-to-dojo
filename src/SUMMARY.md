@@ -24,7 +24,7 @@
 # Permissions
 - [Permissions on Models](./permissions.md)
     - [Overlays](./overlays.md)
-    - [Sozo grant](./sozo_grant.md)
+    - [Sozo Grant](./sozo_grant.md)
 
 # Testing
 - [Unit Testing with Dojo](./unit_tests.md)

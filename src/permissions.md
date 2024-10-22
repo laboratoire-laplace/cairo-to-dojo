@@ -1,6 +1,6 @@
 # Permissions
 
-Every Dojo world can have permissions so that certain models in the world storage can/can't be written to. This is useful if we need to enforce some contracts to not be able to mutate models to maintain integrity depending on the logic implemented.
+Every Dojo world can have permissions so that certain models in the world storage can/can't be written to. This is useful if we need to prevent certain contracts from mutating models to maintain integrity, depending on the implemented logic.
 
 All the Dojo systems within every contract in the world will **not** be able to write to models by default. Thus, you need to whitelist systems or contracts if your contracts mutate the world models (which they  almost always do).
 
