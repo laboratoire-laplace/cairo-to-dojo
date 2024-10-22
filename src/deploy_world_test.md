@@ -54,6 +54,6 @@ mod tests {
           let _player = get!(world, (caller), (MyModelType));
      }
 }
-{{ /edit_1 }}
+```
 
 There's also a _testing cheat sheet_ available in the [Dojo docs](https://book.dojoengine.org/framework/testing-cheat-codes) if you need to call certain starknet testing functions to further simulate onchain activities.
